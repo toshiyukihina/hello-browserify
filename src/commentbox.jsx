@@ -1,11 +1,11 @@
 var React = require('react');
 var request = require('superagent');
-var converter = new Showdown.converter();
+var marked = require('marked');
 
 var Comment = React.createClass({
 
     render: function() {
-        var rawMarkup = converter.makeHtml(this.props.children.toString());
+        var rawMarkup = marked(this.props.children.toString());
         return(
             <div className="comment">
               <h2 className="commentAuthor">
