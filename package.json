@@ -1,0 +1,18 @@
+{
+  "name": "hello-browserify",
+  "version": "0.0.0",
+  "description": "Hello browserify",
+  "scripts": {
+    "build": "gulp browserify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "toshiyukihina",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
