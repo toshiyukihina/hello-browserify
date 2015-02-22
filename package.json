@@ -14,5 +14,8 @@
     "react": "^0.12.2",
     "reactify": "^1.0.0",
     "vinyl-source-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "superagent": "^0.21.0"
   }
 }
